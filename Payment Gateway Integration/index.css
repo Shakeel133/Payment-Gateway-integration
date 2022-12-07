@@ -1,0 +1,86 @@
+*{
+    background-image: url('https://img.freepik.com/premium-vector/flat-vector-illustration-people-with-different-skin-colors-raising-their-hands-unity-concept_91515-51.jpg?w=2000');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size:cover;
+     text-decoration: none;
+    }
+    
+    /* .logo{
+    font-family: 'Patrick Hand', cursive;
+      font-size: 2.5rem;
+      font-style: bold;
+      letter-spacing: 3px;
+      color:#000;
+      text-decoration: none;
+    } */
+    
+    .title
+    {
+      font-family: 'Patrick Hand', cursive;
+      font-size: 2.5rem;
+      font-style: bold;
+      letter-spacing: 3px;
+        color:#000;
+        text-decoration: none;
+    }
+    .abcd a{
+        padding: 15px;
+        border: 0;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-style: bold;
+        color:#000;
+        font-size:20px;
+        text-decoration: none;
+    }
+    /* .abcd a:hover{
+    text-decoration: none;
+    color: #000;
+    } */
+    .don-box{
+      /* background-color: #ECBBB3; */
+      display:inline-block;
+      position:absolute;
+      width:500px;
+      height:300px;
+      margin:50px;
+      padding:20px;
+      left:455px;
+      border-radius: 30px;
+      top:219px;
+      text-align: center;
+      border:2px solid black ;
+      background-image: linear-gradient(to right, rgba(236, 187, 179, 0.5), rgba(245, 234, 206, 0.5));
+    }
+    .button{
+        position: absolute;
+        top: 87%;
+        left: 50%;
+        background-color: red;
+        transform: translate(-50%,-50%);
+    }
+    .btn{
+        border:1px solid black;
+        padding: 10px 30px;
+        color:white;
+      background-color: white;
+        text-decoration: none;
+        transition:0.6s ease;
+    }
+    
+    .btn:hover{
+        background-color: white;
+        color: black;
+        font-weight: 800;
+        background-position: left bottom;
+    }
+    
+    .bottom-container {
+        bottom: -0.5px;
+        left: 702px;
+        font-weight: bold;
+        position: absolute;
+        text-align: center;
+    }
